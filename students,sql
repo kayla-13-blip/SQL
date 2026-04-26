@@ -1,0 +1,13 @@
+SELECT StageName FROM StrayKids 
+WHERE MemberID = 8;
+SELECT StageName FROM StrayKids 
+WHERE BirthYear < 2000;
+SELECT StageName FROM StrayKids 
+WHERE Position LIKE '%Dancer%' AND BirthYear = 2000;
+SELECT StageName FROM StrayKids 
+WHERE StageName = 'Bang Chan' OR StageName = 'Lee Know';
+SELECT StageName, RealName FROM StrayKids 
+WHERE RealName LIKE 'K%';
+SELECT * FROM StrayKids 
+WHERE StageName IN ('Felix', 'Hyunjin', 'I.N');
+
